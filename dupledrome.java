@@ -9,7 +9,7 @@ public class dupledrome{
 		index = index + 2;
 		}
 		System.out.println(count);
-		if (count == (s.length()/2)){
+		if (count == (s.length()/2 + s.length()%2)){
 			return true;
 		}
 		return false;
